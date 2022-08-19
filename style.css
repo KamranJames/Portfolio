@@ -1,32 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,400;0,700;1,400&display=swap');
 
-*{ 
-    margin:0;
+* {
     box-sizing: border-box;
-}
-/* The body of the page */
- body {
-    /* Background of the page */
-    /* background: black; */
-    
-    font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 
- .container{
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto; 
+body {
+   background: black;
+   background-image: url(logo.png)
+}
+header {
     background: url(./background.png);
     background-size: cover;
-    background-position: center;
+    background-position: center;}
 
-    
+li,a {
+    font-family: "museoModerno",sans-serif;
+    font-weight: 500;
+    font-size 16px;
+    color: #9d9488;
+    text-decoration: none;
 }
-/* Targets Logo */
-.logo {
-    width: 150px;
-     }
-/* Targets the navigational buttons */
-ul {
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%
+}
+
+.nav-links {
     list-style: none;
-    position: left;
 }
+
