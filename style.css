@@ -1,34 +1,32 @@
 
-*{
+*{ 
     margin:0;
     box-sizing: border-box;
 }
 /* The body of the page */
-body {
+ body {
     /* Background of the page */
-    background: black;
-    font-family:Arial, Helvetica, sans-serif;
+    /* background: black; */
+    
     font-weight: 400;
 }
 
-/* This container holds the nav bar and links */
-/* Width of 80% to stop containted from going to side of the page */
-.container{
-    width: 80%;
+ .container{
+    width: 100%;
+    height: 100vh;
     margin: 0 auto; 
-}
+    background: url(./background.png);
+    background-size: cover;
+    background-position: center;
 
-header {
-    /* Nav strip background color */
-    background: white;
+    
 }
-
+/* Targets Logo */
 .logo {
-    float: left;
-    width: px;
-
-}
-
+    width: 150px;
+     }
+/* Targets the navigational buttons */
 ul {
-
+    list-style: none;
+    position: left;
 }
