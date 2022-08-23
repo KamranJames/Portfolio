@@ -19,12 +19,16 @@ header {
 }
 /* Aligns the Esus Logo */
 .logo {
-    width: 4rem;
-    height: 4rem;
+    width: 15%;
+    height: 15%;
 }
 /* Contains the Wallpaper Name card and the black background.*/
 body {
+     background: url(assets/wallpaper.png);
      background-color: black;
+     background-size: cover; 
+     background-position: 30% -50%;
+     background-repeat: no-repeat;
         }
      @media only screen and (max-width: 480px) {
      .wallpaper {
