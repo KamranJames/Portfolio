@@ -45,13 +45,19 @@ h2 {
 }
 
 article {
-    font-size: 2rem;
+    display: inline-block;
+    font-size: 14px;
     color: rgb(211, 202, 202);
     font-family: 'comorant', sans-serif;
     line-height:5rem;
     margin-bottom:5rem;
 }
 
+@media screen and (min-width: 600px) {
+    article {
+        font-size: 18px;
+    }
+}
 /* Interacts with the resume button */
 .btn{
     display: inline-block;
