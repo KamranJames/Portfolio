@@ -1,0 +1,8 @@
+
+.blog-box {
+    width: 100px;
+    height: 100px;
+    background: rgb(11, 10, 10);
+    margin: 5px;
+    display: inline-block;
+    }
