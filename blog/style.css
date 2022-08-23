@@ -1,8 +1,26 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .blog-box {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     background: rgb(11, 10, 10);
+    color:blue;
     margin: 5px;
     display: inline-block;
     }
+
+/* Ive targeted the individual blog boxes. */
+.blog-box:nth-of-type(1)
+{font-size: 50px;;}
+
+.blog-box:nth-of-type(2)
+{}
+
+.blog-box:nth-of-type(3)
+{}
