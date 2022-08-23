@@ -70,8 +70,11 @@ p {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    font-style: none;
+    color: white;
+    text-shadow: 5px 5px 5px grey;
+    list-style: none;
+    }
     
     
-}
+
 
