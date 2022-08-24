@@ -6,55 +6,83 @@
     box-sizing: border-box;
 }
 
-
+/* Contains the nav bar styling.*/
 header {
     background: url(assets/background.png);
     background-size: cover;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
     padding: 5% 10%;
 }
 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: white;
+    border-bottom: black;
     font-family: 'Cororant & Garamond', sans-serif;
 }
 .nav-links {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     list-style: none;
-    background-color: red;
+    
    }
-   
-body {
-    /* background-color: black; */
+
+   li a{
+    font-family:'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(230, 223, 223);
+    text-decoration: none;
+   }
+
+   body {
+    background-color: black;
+   }
+/* Styles the blog posts. */
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 0px;
+    flex-wrap: wrap;
+    font-family: 'Cororant & Garamond', sans-serif;
 }
 .blog-box {
-    display: flex;
-    display: inline-block;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
-    background: rgb(11, 10, 10);
-    color:blue;
-    margin: 5px;
-    }
+    width:350px;
+    background-color: rgb(153, 150, 150);
+    border: 1px solid white;
+    border-width: 4px;
+    margin: 20px;
+}
+.blog-img{
+    width:100%;
+    height: auto;
+}
 
-/* Ive targeted the individual blog boxes. */
-.blog-box:nth-of-type(1)
-{
-    font-size: 25px;}
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(8, 7, 7);
+}
 
-.blog-box:nth-of-type(2)
-{font-size: 50px;;}
+.blog-text .blog-title.hover{
+    color: rgb(189, 22, 133);
+    transition: all ease 0.3s;
+}
 
-.blog-box:nth-of-type(3)
-{font-size: 50px;;}
-
-.blog-box:nth-of-type(4)
-{font-size: 50px;;}
-
-.blog-box:nth-of-type(5)
-{font-size: 50px;;}
-
-
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;;
+    font-size: 20px;
+}

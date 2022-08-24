@@ -43,7 +43,7 @@ li,a {
     font-family:'Cormorant Garamond', serif;
     font-weight: 700;
     font-size: 25px;
-    color: white;
+    color: rgb(230, 223, 223);
     text-decoration: none;
 }
 .nav-links {
