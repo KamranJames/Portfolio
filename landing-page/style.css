@@ -1,52 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Crimson+Text&display=swap');
 
-* {
-    box-sizing: border-box;
+*{ 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-/* Containts the Navigation bar and its contents */
+
+/* Contains the nav bar styling.*/
 header {
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Crimson Text', serif;
     background: url(assets/background.png);
     background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    padding: 30px 10%
+    padding: 5% 10%;
 }
-/* Aligns the Esus Logo */
-.logo {
-    width: 15%;
-    height: 15%;
-}
-/* Contains the Wallpaper Name card and the black background.*/
-body {
-     background: url(assets/wallpaper.png);
-     background-color: black;
-     background-size: cover; 
-     background-position: 30% -50%;
-     background-repeat: no-repeat;
-        }
-     @media only screen and (max-width: 480px) {
-     .wallpaper {
-     width: 100%;
-            }
-        }
-.wallpaper {
-    image-orientation: stretch;
-}
-    /* Targets the text within the navigation bar. */
-li,a {
+.nav-links {
+    list-style: none;
+    }
+
+   li a{
     font-family:'Cormorant Garamond', serif;
     font-weight: 700;
     font-size: 25px;
     color: rgb(230, 223, 223);
     text-decoration: none;
+   }
+
+
+/* Contains the alignment settings for the Esus Logo.*/
+.logo {
+    width: 10%;
+    height: 10%;
 }
-.nav-links {
-    list-style: none;
+
+/* Contains the styling for my background and wallpaper image. */
+body {
+    background-color: black;
 }
+.wallpaper {
+    display: flex;
+    background: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%}
+
+    /* Contains the styling for my social links. */
+.icons {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        color: white;
+        text-shadow: 5px 5px 5px grey;
+        list-style: none;
+        }
 
