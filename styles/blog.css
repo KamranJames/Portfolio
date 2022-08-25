@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Crimson+Text&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contains the nav bar styling.*/
+header {
+    background: url(/images/nav-banner.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 5% 10%;
+}
+@media screen and (min-width: 600px) {
+    h1{
+        font-size: 40px;
+    }
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-bottom: black;
+    font-family:'Cormorant Garamond', serif;
+}
+.nav-links {
+    list-style: none;
+    }
+
+   li a{
+    font-family:'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(230, 223, 223);
+    text-decoration: none;
+   }
+
+   body {
+    background-color: black;
+   }
+   
+/* Styles the blog posts. */
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    font-family:'Cormorant Garamond', serif;
+}
+.blog-box {
+    width:350px;
+    background-color: rgb(153, 150, 150);
+    border: 1px solid white;
+    border-width: 4px;
+    margin: 20px;
+}
+.blog-img{
+    width:100%;
+    height: auto;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* Contains blog post button styling */
+.blog-text .blog-title{
+    font-size: 30% 30%;
+    font-weight: bold;
+    color: rgb(8, 7, 7);
+}
+
+.blog-text a:hover{
+    background: rgb(240, 235, 235);
+    transition: all ease 1.5s;
+}
+/*  */
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/* Contains the social icon styling */
+footer 
+    .icons {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        color: white;
+        text-shadow: 5px 5px 5px grey;
+        list-style: none;
+        }
