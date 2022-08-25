@@ -40,6 +40,7 @@ h1 {
    body {
     background-color: black;
    }
+   
 /* Styles the blog posts. */
 .blog-container {
     display: flex;
@@ -83,7 +84,7 @@ span {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-
+/* Contains the social icon styling */
 footer 
     .icons {
         margin-top: 2rem;

@@ -19,6 +19,11 @@ header {
     align-items: center;
     padding: 5% 10%;
 }
+@media screen and (min-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+}
 h1 {
     display: flex;
     justify-content: center;
@@ -28,6 +33,8 @@ h1 {
     border-bottom: black;
     font-family:'Cormorant Garamond', serif;
 }
+
+
 .nav-links {
     list-style: none;
     }
@@ -81,7 +88,7 @@ article {
     line-height:5rem;
     margin-bottom:5rem;
 }
-
+/* Media breakpoint for bio text. */
 @media screen and (min-width: 600px) {
     article {
         font-size: 18px;
