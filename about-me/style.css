@@ -8,14 +8,43 @@
 html {
     font-size: 10px;
 }
-/* Interacts with the wallpaper. */
-body {
-    background: url('assets/background.png');
-    background-size: cover;
-    background-position:0 1000px;
-}
 
-.container {
+/* Contains the nav bar styling.*/
+header {
+    background: url(assets/background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 5% 10%;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-bottom: black;
+    font-family: 'Cororant & Garamond', sans-serif;
+}
+.nav-links {
+    list-style: none;
+    }
+
+   li a{
+    font-family:'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(230, 223, 223);
+    text-decoration: none;
+   }
+
+   body {
+    background-color: black;
+   }
+
+article {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 3rem;
@@ -23,25 +52,25 @@ body {
     text-align: center;
 }
 
-h1 {
+h2 {
     color: rgb(203, 200, 200);
     font-family: 'comorant', sans-serif;
-    font-size: 3.5rem;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: 8px;
-    margin-bottom: 2rem;
+    margin-bottom: 12.5px;
 }
 
-h2 {
+h3 {
     color: white;
     font-family: 'Crimson', sans-serif;
-    font-size: 3rem;
+    font-size: 35px;
     font-weight: 400;
 }
 
 .image {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 article {
@@ -62,10 +91,10 @@ article {
 .btn{
     display: inline-block;
     padding: 2.7rem 7.5rem;
-    background: black;
+    background: rgb(157, 154, 154);
     font-size: 2rem;
     text-decoration: none;
-    color: white;
+    color: rgb(6, 5, 5);
     border-radius: 10px;
     transition: background 0,5s;
 }
@@ -84,6 +113,7 @@ article {
     text-shadow: 5px 5px 5px grey;
     list-style: none;
     }
+
     
     
 
