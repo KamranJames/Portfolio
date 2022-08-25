@@ -8,9 +8,15 @@
 }
 
 /* Contains the nav bar styling.*/
+@media screen and (min-width: 600px) {
+    h1{
+        font-size: 40px;
+    }
+}
 h1 {
     color: white;
 }
+
 header {
     background: url(assets/background.png);
     background-size: cover;
