@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Crimson+Text&display=swap');
 
 *{ 
@@ -7,25 +8,21 @@
 }
 
 /* Contains the nav bar styling.*/
+h1 {
+    color: white;
+}
 header {
     background: url(assets/background.png);
     background-size: cover;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     align-items: center;
     padding: 5% 10%;
-}
-
-h1 {
-    display: flex;
-    color: white;
-    font-family: 'Cororant & Garamond', sans-serif;
 }
 .nav-links {
     list-style: none;
     }
-
+/* Contains styling for nav text. */
    li a{
     font-family:'Cormorant Garamond', serif;
     font-weight: 700;
@@ -38,34 +35,14 @@ h1 {
     background-color: black;
    }
 
-   /* Contains the stylng for the three Project examples. */
-   article {
-   display: flex;
-   justify-content: space-around;
-   align-items: stretch;
-   }
-
-.project-one{
-    width: 300px;
+/* Contains the project box styling. */
+.project{
+    display: inline-flex;
+    width: 290px;
     padding: 50px;
     margin: 20px;
     border: 15px solid rgb(198, 201, 198);
-   
-}
-
-.project-two{
-    width: 300px;
-    border: 15px solid rgb(132, 136, 132);
-    padding: 50px;
-    margin: 20px;
-}
-
-.project-three {
-    width: 300px;
-    border: 15px solid rgb(232, 237, 232);
-    padding: 50px;
-    margin: 20px;
-}
+  }
 
 /* Contains the styling for the social icons. */
 footer 
@@ -76,5 +53,5 @@ footer
         font-size: 2rem;
         color: white;
         text-shadow: 5px 5px 5px grey;
-        list-style: none;
+        list-style: none
         }

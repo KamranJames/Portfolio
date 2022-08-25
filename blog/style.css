@@ -23,7 +23,7 @@ h1 {
     flex-direction: column;
     color: white;
     border-bottom: black;
-    font-family: 'Cororant & Garamond', sans-serif;
+    font-family:'Cormorant Garamond', serif;
 }
 .nav-links {
     list-style: none;
@@ -43,11 +43,11 @@ h1 {
 /* Styles the blog posts. */
 .blog-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 20px 0px;
-    flex-wrap: wrap;
-    font-family: 'Cororant & Garamond', sans-serif;
+    font-family:'Cormorant Garamond', serif;
 }
 .blog-box {
     width:350px;
