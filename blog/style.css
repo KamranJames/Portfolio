@@ -67,6 +67,7 @@ h1 {
     object-fit: cover;
     object-position: center;
 }
+/* Contains blog post button styling */
 .blog-text .blog-title{
     font-size: 30% 30%;
     font-weight: bold;
