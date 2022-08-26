@@ -5,9 +5,6 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 10px;
-}
 
 /* Contains the nav bar styling.*/
 header {
@@ -21,9 +18,10 @@ header {
 }
 @media screen and (min-width: 600px) {
     h1{
-        font-size: 30px;
+        font-size: 40px;
     }
 }
+/* Current Page Title */
 h1 {
     display: flex;
     justify-content: center;
@@ -34,7 +32,7 @@ h1 {
     font-family:'Cormorant Garamond', serif;
 }
 
-
+/* Nav bar Styling */
 .nav-links {
     list-style: none;
     }
@@ -51,42 +49,50 @@ h1 {
     background-color: black;
    }
 
-article {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 3rem;
-    margin-top: 4rem;
-    text-align: center;
-}
-
+/* Kamran James text styling */
 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(203, 200, 200);
     font-family:'Cormorant Garamond', serif;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 12.5px;
+    margin-top: 20px;;
 }
-
+/* Web developer text styling */
 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-family:'Cormorant Garamond', serif;
     font-size: 35px;
     font-weight: 400;
 }
 
+/* Styling for photo of Kamran. */
 .image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
     margin-top: 30px;
-    margin-bottom: 20px;
-}
-
+    }
+/* Styling for article */
 article {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 14px;
     color: rgb(211, 202, 202);
     font-family: Arial, Helvetica, sans-serif, serif;
-    line-height:5rem;
-    margin-bottom:5rem;
+    line-height:30px;
+    margin-bottom:20px;;
+    padding:  25px;
+    margin-top: 20px;
 }
 /* Media breakpoint for bio text. */
 @media screen and (min-width: 600px) {
@@ -96,16 +102,23 @@ article {
 }
 /* Interacts with the resume button */
 .btn{
-    display: inline-block;
-    padding: 2.7rem 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 40px;
+    height: 100px;
+    padding: 50px 100px;
     background: rgb(157, 154, 154);
-    font-size: 2rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    font-weight: bold;
     color: rgb(6, 5, 5);
     border-radius: 10px;
     transition: background 0,5s;
 }
-
+/* Btn selection effect */
 .btn:hover {
     background: grey;
 }

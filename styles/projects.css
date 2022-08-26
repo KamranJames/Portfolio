@@ -14,7 +14,13 @@
     }
 }
 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: white;
+    border-bottom: black;
+    font-family:'Cormorant Garamond', serif;
 }
 
 header {
@@ -46,7 +52,7 @@ header {
     display: inline-flex;
     width: 290px;
     padding: 50px;
-    margin: 20px;
+    margin: 55px;
     border: 15px solid rgb(198, 201, 198);
   }
 
