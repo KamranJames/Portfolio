@@ -30,25 +30,25 @@ Projects: A projects page with four placeholder example posts, that become modul
 **Blogs**: A blog page with access to five blog posts accessible through interactive links.
 
 
-![Site map](site-map.png)
+![Site map](docs/site-map.png)
 
 Created with figna
 
 
 #### **Wireframes & Screenshots**
-![Index wireframe](index-wireframes.png)
-![Index](home-page.png)
+![Index wireframe](docs/index-wireframes.png)
+![Index](docs/home-page.png)
 
-![About me wireframe](about-me-wireframe.png)
+![About me wireframe](docs/about-me-wireframe.png)
 
-![About Me](about-me.png)
+![About Me](docs/about-me.png)
 
-![Blog Wireframe](blog-wireframe.png)
+![Blog Wireframe](docs/blog-wireframe.png)
 
-![Blog](blog.png)
+![Blog](docs/blog.png)
 
-![Blog Wireframe](projects-wireframe.png)
+![Blog Wireframe](docs/projects-wireframe.png)
 
-![projects](projects.png)
+![projects](docs/projects.png)
 
-![tech stack](tech-stack.png)
+![tech stack](docs/tech-stack.png)
