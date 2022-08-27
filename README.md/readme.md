@@ -1,8 +1,10 @@
 ## T1A2 Portfolio Website - By Kamran James Ozturk
 
-[Portfolio website located here:](https://github.com/KamranJames/Portfolio.git)
+Portfolio Website: [Portfolio](https://github.com/KamranJames/Portfolio.git)
 
-[Github repo located here:](https://github.com/KamranJames/Portfolio.git)
+Github repo located here: [Github repo](https://github.com/KamranJames/Portfolio.git)
+
+Presentation located here: [Presentation](https://vimeo.com/manage/videos/743638342/0479fe3a66/customize)
 
 ## Purpose and Target Audience
 Purpose and Target Audience
