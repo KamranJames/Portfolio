@@ -46,13 +46,15 @@ h1 {
     background-color: black;
    }
    
-/* Styles the blog posts. */
+/* Styles the blog box. */
 .blog-container {
+  
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 50px 0px;
     font-family:'Cormorant Garamond', serif;
 }
 .blog-box {
@@ -61,10 +63,6 @@ h1 {
     border: 1px solid white;
     border-width: 4px;
     margin: 20px;
-}
-.blog-img{
-    width:100%;
-    height: auto;
 }
 
 .blog-img img {
