@@ -1,6 +1,6 @@
 ## T1A2 Portfolio Website - By Kamran James Ozturk
 
-Portfolio Website: [Portfolio](https://github.com/KamranJames/Portfolio.git)
+Portfolio Website: [Portfolio](https://kamranjamesportfolio.netlify.app)
 
 Github repo located here: [Github repo](https://github.com/KamranJames/Portfolio.git)
 
